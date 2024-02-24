@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+}
+
+.navbar{
+    width: 100%;
+    min-height: 50px;
+    
+    
+}
+.navbar .logo{
+    width: 40%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    background-color:#1778f0;
+}
+.navbar .logo h1{
+    color: white;
+    font-family: cursive;
+}
+
+.navbar .menu {
+    float: right;
+    width: 50%;
+    height: 50px;
+    background-color: rgb(208 212 219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.navbar .menu a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar .menu button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    background-color: #1778f0;
+}
+
+.slider{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 10px;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxes{
+    width: 100%;
+    min-height: 100px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.boxes .box{
+    width: 30%;
+    min-height: 200px;
+}
+
+.boxes .box video{
+    width: 100%;
+    height: auto;
+}
+.main-containt{
+    width: 100%;
+    min-height: 200px;
+    background-color: pink;
+    margin-top: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    margin-top: 10px;
+}
+.footer{
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    background-color:#c3c5c7;
+}
+
